@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Look_Direction"
+run/main_scene="res://world.tscn"
+config/features=PackedStringArray("4.4", "Mobile")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=160
+window/size/viewport_height=90
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
+viewport/hdr_2d=true
+environment/defaults/default_clear_color=Color(0.199997, 0.199997, 0.199997, 1)
+
+[xogot]
+
+project/breakpoints={}
+project/editorState=[{
+"column": 48,
+"line": 1,
+"path": "res://Art/ArtReadMe.txt",
+"type": "file"
+}, {
+"column": 29,
+"current": true,
+"line": 1,
+"path": "res://Misc/MiscReadMe.txt",
+"type": "file"
+}, {
+"column": 57,
+"line": 1,
+"path": "res://Player/PlayerReadMe.txt",
+"type": "file"
+}]
