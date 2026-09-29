@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Look_Direction"
 run/main_scene="res://world.tscn"
-config/features=PackedStringArray("4.4", "Mobile")
+config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
